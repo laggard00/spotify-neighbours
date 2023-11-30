@@ -1,0 +1,25 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('GothamRoundedMedium_21022.ttf');
+    font-weight: bold;
+  }
+body {
+    font-family: myFirstFont;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 !important;
+    padding:0 !important; /* Remove default margin */
+    background-image: url('blob-scene-haikei.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: red;
+  }
+
+  .other{ margin: 0;
+    padding: 0;
+      text-align: center;
+      font-family: 'myFirstFont';}

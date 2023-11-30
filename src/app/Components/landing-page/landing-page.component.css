@@ -1,0 +1,66 @@
+*{padding:0px;
+    margin:0px;}
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 !important;
+    padding:0 !important; /* Remove default margin */
+    background-image: url('blob-scene-haikei.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: red;
+  }
+  .aa {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 !important;
+    padding:0 !important; /* Remove default margin */
+    
+  }
+  .titleClass {
+    margin: 0;
+  padding: 0;
+    text-align: center;
+    font-family: 'myFirstFont';
+     /* Set text color to contrast with the background */
+  }
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url('GothamRoundedMedium_21022.ttf');
+    font-weight: bold;
+  }
+
+  h1, h2 {
+    margin: 20px;
+    color:#23152b /* Adjust margin for better spacing */
+  }
+
+  .custom-button {
+    display: inline-block;
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #234b5c;
+    font-family: myFirstFont;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+  
+    /* Center text inside the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-button:hover {
+    background-color: #1a3846; /* Optional: Change color on hover */
+  }
